@@ -32,10 +32,6 @@ public class CustomerController {
 	
 	@PostMapping("/addCustomer")
 	public String addCustomer(@RequestBody CustomerDetails customer) {
-		logger.info("This is a info message");
-        logger.warn("This is a warn message");
-        logger.error("This is an error message");
-        logger.fatal("This is a fatal message");
 		
         service.addCustomer(customer);
 		return "customer added successful";
@@ -44,6 +40,11 @@ public class CustomerController {
 	
 	@GetMapping("/getCustomer/{id}")
 	public CustomerDetails showCustomer(@PathVariable int id) {
+		logger.info("This is a info message");
+        logger.warn("This is a warn message");
+        logger.error("This is an error message");
+        logger.fatal("This is a fatal message");
+		
 		return service.showCustomer(id);
 			 
 	}

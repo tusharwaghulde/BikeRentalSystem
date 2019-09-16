@@ -1,0 +1,94 @@
+2019-09-16 17:29:28.740  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Starting BikeRentalSystemApplication on Tushar-pc with PID 6136 (D:\FinalProject\BikeRentalSystem\target\classes started by Tushar in D:\FinalProject\BikeRentalSystem)
+2019-09-16 17:29:28.742  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : No active profile set, falling back to default profiles: default
+2019-09-16 17:29:28.783  INFO 6136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-16 17:29:28.783  INFO 6136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-16 17:29:29.428  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-16 17:29:29.494  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+2019-09-16 17:29:29.843  INFO 6136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0be881b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 17:29:30.087  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2019-09-16 17:29:30.111  INFO 6136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 17:29:30.111  INFO 6136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-16 17:29:30.206  INFO 6136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-16 17:29:30.206  INFO 6136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1423 ms
+2019-09-16 17:29:30.337  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-16 17:29:30.576  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-16 17:29:30.642  INFO 6136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-16 17:29:30.813  INFO 6136 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-16 17:29:30.815  INFO 6136 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-16 17:29:30.908  INFO 6136 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-16 17:29:31.009  INFO 6136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-16 17:29:35.432  INFO 6136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-16 17:29:35.491  INFO 6136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 17:29:35.711  INFO 6136 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-16 17:29:36.004  INFO 6136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:29:36.031  WARN 6136 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-16 17:29:36.232  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2019-09-16 17:29:36.235  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Started BikeRentalSystemApplication in 7.762 seconds (JVM running for 8.4)
+2019-09-16 17:30:40.295  INFO 6136 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:30:40.304  INFO 6136 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-16 17:30:40.314  INFO 6136 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-16 17:30:40.367  INFO 6136 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-16 17:30:40.659  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Starting BikeRentalSystemApplication on Tushar-pc with PID 6136 (D:\FinalProject\BikeRentalSystem\target\classes started by Tushar in D:\FinalProject\BikeRentalSystem)
+2019-09-16 17:30:40.659  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : No active profile set, falling back to default profiles: default
+2019-09-16 17:30:40.865  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-16 17:30:40.881  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 4 repository interfaces.
+2019-09-16 17:30:40.926  INFO 6136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0be881b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 17:30:41.000  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2019-09-16 17:30:41.001  INFO 6136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 17:30:41.002  INFO 6136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-16 17:30:41.015  INFO 6136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-16 17:30:41.015  INFO 6136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 354 ms
+2019-09-16 17:30:41.058  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-09-16 17:30:41.062  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-09-16 17:30:41.069  INFO 6136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-16 17:30:41.077  INFO 6136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-16 17:30:43.598  INFO 6136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-16 17:30:43.641  INFO 6136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 17:30:43.676  INFO 6136 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-16 17:30:43.790  INFO 6136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:30:43.796  WARN 6136 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-16 17:30:43.875  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2019-09-16 17:30:43.875  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Started BikeRentalSystemApplication in 3.239 seconds (JVM running for 76.04)
+2019-09-16 17:30:43.877  INFO 6136 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-16 17:31:18.930  INFO 6136 --- [http-nio-3333-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-16 17:31:18.931  INFO 6136 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-16 17:31:18.941  INFO 6136 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-09-16 17:31:39.788  INFO 6136 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:31:39.792  INFO 6136 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-16 17:31:39.796  INFO 6136 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-09-16 17:31:39.806  INFO 6136 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-09-16 17:31:40.139  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Starting BikeRentalSystemApplication on Tushar-pc with PID 6136 (D:\FinalProject\BikeRentalSystem\target\classes started by Tushar in D:\FinalProject\BikeRentalSystem)
+2019-09-16 17:31:40.139  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : No active profile set, falling back to default profiles: default
+2019-09-16 17:31:40.321  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-16 17:31:40.344  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 4 repository interfaces.
+2019-09-16 17:31:40.391  INFO 6136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0be881b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-16 17:31:40.481  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3333 (http)
+2019-09-16 17:31:40.483  INFO 6136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-16 17:31:40.483  INFO 6136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-16 17:31:40.500  INFO 6136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-16 17:31:40.500  INFO 6136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 359 ms
+2019-09-16 17:31:40.542  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-09-16 17:31:40.546  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-09-16 17:31:40.553  INFO 6136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-16 17:31:40.563  INFO 6136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-16 17:31:42.953  INFO 6136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-16 17:31:42.993  INFO 6136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-16 17:31:43.034  INFO 6136 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-16 17:31:43.137  INFO 6136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-16 17:31:43.143  WARN 6136 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-16 17:31:43.212  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3333 (http) with context path ''
+2019-09-16 17:31:43.213  INFO 6136 --- [restartedMain] c.a.B.BikeRentalSystemApplication        : Started BikeRentalSystemApplication in 3.096 seconds (JVM running for 135.377)
+2019-09-16 17:31:43.217  INFO 6136 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-16 17:31:57.072  INFO 6136 --- [http-nio-3333-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-16 17:31:57.077  INFO 6136 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-16 17:31:57.084  INFO 6136 --- [http-nio-3333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-09-16 17:32:13.358  INFO 6136 --- [http-nio-3333-exec-2] c.a.B.Controller.CustomerController      : This is a info message
+2019-09-16 17:32:13.359  WARN 6136 --- [http-nio-3333-exec-2] c.a.B.Controller.CustomerController      : This is a warn message
+2019-09-16 17:32:13.359 ERROR 6136 --- [http-nio-3333-exec-2] c.a.B.Controller.CustomerController      : This is an error message
+2019-09-16 17:32:13.359 ERROR 6136 --- [http-nio-3333-exec-2] c.a.B.Controller.CustomerController      : This is a fatal message
