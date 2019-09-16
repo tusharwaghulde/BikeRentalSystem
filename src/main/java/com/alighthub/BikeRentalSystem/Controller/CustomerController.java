@@ -34,7 +34,7 @@ public class CustomerController {
 	public String addCustomer(@RequestBody CustomerDetails customer) {
 		
         service.addCustomer(customer);
-		return "customer added successful";
+		return "customer added successfully";
 		
 	}
 	
