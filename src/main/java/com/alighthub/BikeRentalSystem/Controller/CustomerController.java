@@ -36,7 +36,8 @@ public class CustomerController {
         logger.warn("This is a warn message");
         logger.error("This is an error message");
         logger.fatal("This is a fatal message");
-		service.addCustomer(customer);
+		
+        service.addCustomer(customer);
 		return "customer added successful";
 		
 	}
