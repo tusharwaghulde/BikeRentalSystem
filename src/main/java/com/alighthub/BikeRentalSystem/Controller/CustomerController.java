@@ -40,6 +40,8 @@ public class CustomerController {
 	
 	@GetMapping("/getCustomer/{id}")
 	public CustomerDetails showCustomer(@PathVariable int id) {
+
+		System.out.println("hiiii");
 		logger.info("This is a info message");
         logger.warn("This is a warn message");
         logger.error("This is an error message");
