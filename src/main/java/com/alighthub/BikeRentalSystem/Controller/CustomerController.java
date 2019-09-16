@@ -2,6 +2,8 @@ package com.alighthub.BikeRentalSystem.Controller;
 
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -22,12 +24,18 @@ import com.alighthub.BikeRentalSystem.ServiceInterface.CustomerServiceInterface;
 @RequestMapping("/cust")
 @CrossOrigin("*")
 public class CustomerController {
+	
+	private static Logger logger = LogManager.getLogger(CustomerController.class);
+	
 	@Autowired
 	CustomerServiceInterface service;
 	
 	@PostMapping("/addCustomer")
 	public String addCustomer(@RequestBody CustomerDetails customer) {
-		
+		logger.info("This is a info message");
+        logger.warn("This is a warn message");
+        logger.error("This is an error message");
+        logger.fatal("This is a fatal message");
 		service.addCustomer(customer);
 		return "customer added successful";
 		
