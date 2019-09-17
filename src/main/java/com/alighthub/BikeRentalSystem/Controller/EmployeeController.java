@@ -19,7 +19,7 @@ import com.alighthub.BikeRentalSystem.ServiceInterface.EmployeeServiceInterface;
 
 @RestController
 @CrossOrigin("*")
-@RequestMapping("/emp")
+@RequestMapping("/employee")
 public class EmployeeController {
 	
 	@Autowired

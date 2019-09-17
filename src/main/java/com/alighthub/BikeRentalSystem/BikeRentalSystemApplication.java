@@ -8,7 +8,6 @@ public class BikeRentalSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BikeRentalSystemApplication.class, args);
-		
+		System.out.println("Spring boot fine");
 	}
-
 }

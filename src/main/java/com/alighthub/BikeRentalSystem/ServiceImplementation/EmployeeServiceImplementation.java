@@ -23,7 +23,7 @@ public class EmployeeServiceImplementation implements EmployeeServiceInterface{
 
 	@Override
 	public EmployeeDetails showEmployee(int id) {
-		return Employeedao.findById(id).get();
+		return Employeedao.findByEmployee_Login(id);
 			
 	}
 

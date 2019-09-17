@@ -21,7 +21,7 @@ import com.alighthub.BikeRentalSystem.ServiceInterface.CustomerServiceInterface;
 
 
 @RestController
-@RequestMapping("/cust")
+@RequestMapping("/customer")
 @CrossOrigin("*")
 public class CustomerController {
 	

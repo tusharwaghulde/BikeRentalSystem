@@ -18,7 +18,7 @@ import com.alighthub.BikeRentalSystem.ServiceInterface.DealerServiceInterface;
 
 @RestController
 @CrossOrigin("*")
-@RequestMapping("/deal")
+@RequestMapping("/dealer")
 public class DealerController {
 	
 	@Autowired
@@ -37,21 +37,21 @@ public class DealerController {
 			 
 	}
 	
-	@GetMapping("/editDealer/{Dealer_id}")
+	@GetMapping("/editDealer/{dealer_id}")
 	public DealerDetails editDealer(@PathVariable int dealer_id) {
 		return service.editDealer(dealer_id);
 	}
 	
 	@PatchMapping("/updateDealer")
-	public String updateDealer(@RequestBody DealerDetails Dealer)
+	public String updateDealer(@RequestBody DealerDetails dealer)
 	{
-		service.updateDealer(Dealer);
+		service.updateDealer(dealer);
 		return "Dealer Updated";
 	}
 	
-	@DeleteMapping("/deleteDealer/{Dealer_id}")
-	public List<DealerDetails> deleteDealer(@PathVariable int Dealer_id){
-		return service.deleteDealer(Dealer_id);
+	@DeleteMapping("/deleteDealer/{dealer_id}")
+	public List<DealerDetails> deleteDealer(@PathVariable int dealer_id){
+		return service.deleteDealer(dealer_id);
 	}
 	
 	@GetMapping("/showAllDealers")

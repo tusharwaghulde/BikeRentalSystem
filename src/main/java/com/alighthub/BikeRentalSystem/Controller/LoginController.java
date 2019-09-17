@@ -17,7 +17,7 @@ public class LoginController {
 	
 	@Autowired
 	LoginServiceInterface service;
-	@GetMapping("/get/{username}/{password}")
+	@GetMapping("/getLogin/{username}/{password}")
 	public LoginDetails show(@PathVariable String username,@PathVariable String password) {
 		return service.show(username,password);
 			 

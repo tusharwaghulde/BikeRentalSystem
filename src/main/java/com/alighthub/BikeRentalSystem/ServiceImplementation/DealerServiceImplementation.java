@@ -22,7 +22,7 @@ public class DealerServiceImplementation implements DealerServiceInterface{
 
 	@Override
 	public DealerDetails showDealer(int id) {
-		return Dealerdao.findById(id).get();
+		return Dealerdao.findByDealer_Login(id);
 			
 	}
 

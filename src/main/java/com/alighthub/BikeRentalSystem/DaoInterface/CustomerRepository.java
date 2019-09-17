@@ -5,7 +5,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import com.alighthub.BikeRentalSystem.Model.CustomerDetails;
-import com.alighthub.BikeRentalSystem.Model.LoginDetails;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<CustomerDetails, Integer> {
